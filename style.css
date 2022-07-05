@@ -1,0 +1,134 @@
+:root {
+    --cor1: ;
+    --cor2: ;
+    --cor3: ;
+    --cor4: ;
+    --cor5: ;
+    --cor6: ;
+    --cor7: ;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgba(62, 103, 238, 0.966);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* >>>>>>>>>>>>>>   header  <<<<<<<<<<<<<<<<*/
+header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: .1rem .1rem .3rem black;
+}
+/* >>>>>>>>>>>>>>   main  <<<<<<<<<<<<<<<<*/
+
+main {
+    background-color: white;
+    width: 40vw;
+    /* display: flex; */
+    padding: 2rem; 
+    flex: 2;
+    border-radius: .8rem;
+    box-shadow: .1rem .1rem 1rem black;   
+}
+
+#container {
+    padding-top: .1rem;
+    border: solid .1rem;
+    box-shadow: .05rem .05rem .3rem black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#titulo_main {
+    padding: 1rem;
+}
+
+#dados {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p {
+    padding: .3rem;
+}
+
+.item {
+    padding: 1rem;
+}
+
+.caixa {
+    width: 4rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#sexo {
+    padding: .5rem;
+}
+#botao {
+    font-size: 1.3rem;
+    padding: .4rem;
+    margin: 1rem;
+}
+
+#resp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+#respIMC {
+    margin-top: 1.3rem;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 60%;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+#classificacao {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* >>>>>>>>>>>>>> footer  <<<<<<<<<<<<<<<<*/
+footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: .1rem .1rem .3rem black;
+}
